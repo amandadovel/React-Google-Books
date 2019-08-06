@@ -1,23 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Search";
+import Navbar from "./components/Navbar";
+import { Container } from "./components/Grid";
+import Search from "./pages/Search";
 import Saved from "./pages/Saved";
 import NoMatch from "./pages/NoMatch";
-import Navbar from "./components/Navbar";
 
-function App() {
-        return (
+
+const App = () => (
+   
             <Router>
-                <div>
                     <Navbar />
+                    <Container>
                     <Switch>
-                        <Route exact path="/" component={Home} />
+                        <Route exact path="/" component={Search} />
                         <Route exact path="/saved" component={Saved} />
                         <Route component={NoMatch} />
                     </Switch>
-                </div>
+                    </Container>
             </Router>
-        );
-    }
+ 
+    )
 
 export default App;
