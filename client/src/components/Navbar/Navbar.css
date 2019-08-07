@@ -1,4 +1,11 @@
 .navbar {
     position: sticky;
     margin-bottom: 50px;
+    box-shadow: #0B3693 2px 2px 12px 2px;
+    opacity: .9;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
 }

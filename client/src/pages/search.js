@@ -64,7 +64,7 @@ class Search extends Component {
                             <h1 className="text-center">
                                 <strong>Google Book Search</strong>
                             </h1>
-                            <h2 className="text-center">Search and Save Books</h2>
+                            <h2 className="text-center">Search and Save Books of Interest</h2>
                         </Jumbotron>
                     </Col>
                     <Col size="md-12">

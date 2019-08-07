@@ -13,7 +13,7 @@ export default {
 
     // Deletes saved books with id
     deleteBook: id => {
-        return axios.delete("/api/books" + id);
+        return axios.delete("/api/books/" + id);
     },
 
     // Saves a book to the database
