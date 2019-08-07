@@ -8,18 +8,18 @@ import NoMatch from "./pages/NoMatch";
 
 
 const App = () => (
-   
-            <Router>
-                    <Navbar />
-                    <Container>
-                    <Switch>
-                        <Route exact path="/" component={Search} />
-                        <Route exact path="/saved" component={Saved} />
-                        <Route component={NoMatch} />
-                    </Switch>
-                    </Container>
-            </Router>
- 
-    )
+
+    <Router>
+        <Navbar />
+        <Container>
+            <Switch>
+                <Route exact path="/" component={Search} />
+                <Route exact path="/saved" component={Saved} />
+                <Route component={NoMatch} />
+            </Switch>
+        </Container>
+    </Router>
+
+)
 
 export default App;
