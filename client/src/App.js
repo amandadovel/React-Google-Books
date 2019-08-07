@@ -8,7 +8,7 @@ import NoMatch from "./pages/NoMatch";
 
 
 const App = () => (
-
+<>
     <Router>
         <Navbar />
         <Container>
@@ -19,7 +19,7 @@ const App = () => (
             </Switch>
         </Container>
     </Router>
-
+</>
 )
 
 export default App;
