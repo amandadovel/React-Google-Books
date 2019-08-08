@@ -7,7 +7,7 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 
-class Search extends Component {
+class SearchPage extends Component {
     state = {
         books: [],
         title: "",
@@ -110,4 +110,4 @@ class Search extends Component {
     }
 }
 
-export default Search;
+export default SearchPage;
