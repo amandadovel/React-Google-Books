@@ -5,7 +5,6 @@ import { Container } from "./components/Grid";
 // import Search from "./pages/Search";
 import SavedPage from "./pages/SavedPage";
 import NoMatch from "./pages/NoMatch";
-import SavedPage from "./pages/SavedPage";
 
 
 const App = () => (
