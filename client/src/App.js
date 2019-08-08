@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Container } from "./components/Grid";
 // import Search from "./pages/Search";
-import Saved from "./pages/Saved";
+// import Saved from "./pages/Saved";
 import NoMatch from "./pages/NoMatch";
 
 
@@ -14,8 +14,8 @@ const App = () => (
             <Container>
                 <Switch>
                     {/* <Route exact path="/" component={Search} /> */}
-                    <Route exact path="/saved" component={Saved} />
-                    <Route component={NoMatch} />
+                    {/* <Route exact path="/saved" component={Saved} /> */}
+                    <Route exact path="/" component={NoMatch} />
                 </Switch>
             </Container>
         </div>
