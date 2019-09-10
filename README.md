@@ -1,8 +1,8 @@
-# React Google Book Search
+# React Google Book Search 📚
 
-<a href="#">Google Books</a>
+<a href="https://googlebooks-dovel.herokuapp.com/">Google Books</a>
 
-<img src="#" alt="home page">
+<img src="client/src/images/googlegif.gif" alt="google-gif">
 
 ## Functionality 💪
 #### Here's how the app works: 
