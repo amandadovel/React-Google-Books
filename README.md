@@ -2,7 +2,7 @@
 
 <a href="https://googlebooks-dovel.herokuapp.com/">Google Books</a>
 
-<img src="../client/src/images/googlegif.gif" alt="google-gif">
+<img src="client/src/images/googlegif.gif" alt="google-gif">
 
 ## Functionality 💪
 #### Here's how the app works: 
