@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone repository. Click on the clone button next to the repository (clone with SSH).
 2. Open Terminal and git clone (paste) into directory of your choice. 
 3. Open folder in VS Code. 
-4. After the files necessary for the react app, the file structure follows an MVC pattern with the main diretories being `client`, `controllers`, `models`, `routes`, `scripts` and the `server.js` file which connects the app to the database and the server. 
+4. After the files necessary for the react app, the file structure follows an MVC pattern with the main diretories       being `client`, `controllers`, `models`, `routes`, `scripts` and the `server.js` file which connects the app to       the database and the server. 
 5. The client directory holds all of the logic connecting the backend to the front.
 6. Each component is defined within the `components` directory. 
 7. Each of the necessary pages displayed in the browser are defined in the `pages` directory.
@@ -33,15 +33,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With 🔧
 
-* [React] () - 
-* [Node] (https://nodejs.org/en/download/) - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. 
-* [Javascript] (https://www.javascript.com/) - JavaScript is the programming language of HTML and the Web
-* [JSON] (https://www.json.org/) - Javascript object notation, syntax for storing and exchanging information. 
-* [Express] (https://www.npmjs.com/package/express) - Node.js web app framework designed to make developing websites, web apps, & API's much easier.
-* [MVC] - (https://www.geeksforgeeks.org/mvc-design-pattern/) - The Model-View-Controller is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller.
-* [Mongoose] - (https://mongoosejs.com/docs/) - An object modeling tool for MongoDB. Manages relationships between data and translates between objects in code and the representation of them in MongoDB. 
-* [Axios] - () - 
-* [Heroku] - (https://www.heroku.com/) - A cloud based platform that lets companies build, deliver, monitor and scale applications.
+* [React](https://reactjs.org/) - Component based Javascript library used for creating interactive user interfaces      specifically for single page layouts. 
+* [Node](https://nodejs.org/en/download/) - As an asynchronous event driven JavaScript runtime, Node is designed to     build scalable network applications. 
+* [Javascript](https://www.javascript.com/) - JavaScript is the programming language of HTML and the Web
+* [JSON](https://www.json.org/) - Javascript object notation, syntax for storing and exchanging information. 
+* [Express](https://www.npmjs.com/package/express) - Node.js web app framework designed to make developing websites,    web apps, & API's       much easier.
+* [MVC](https://www.geeksforgeeks.org/mvc-design-pattern/) - The Model-View-Controller is an architectural pattern      that separates an       application into three main logical components: the model, the view, and the controller.
+* [Mongoose](https://mongoosejs.com/docs/) - An object modeling tool for MongoDB. Manages relationships between data    and translates          between objects in code and the representation of them in MongoDB. 
+* [Axios](https://www.npmjs.com/package/axios) - Promise-based HTTP client for javascript that can be used in the front and backend of an       application. 
+* [Heroku](https://www.heroku.com/) - A cloud based platform that lets companies build, deliver, monitor and scale      applications.
  
 
 ## Author ⌨️
