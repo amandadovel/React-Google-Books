@@ -7,7 +7,7 @@
 ## Functionality 💪
 #### Here's how the app works: 
 1. This is a react app which allows users to search and save books using a google book API.
-    1.1 
+
 ## Getting Started 🏁
 
 These instructions will get you a copy of the project up and running on your local machine for grading and testing purposes. 
